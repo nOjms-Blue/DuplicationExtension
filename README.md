@@ -1,2 +1,1 @@
-# DuplicationExtension
-Duplication command extension for VSCode
+Visual Studio Style Duplication.
