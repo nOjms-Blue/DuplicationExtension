@@ -27,10 +27,10 @@
 		]
 	},
 	"scripts": {
-		"vscode:prepublish": "npm run compile",
+		"vscode:prepublish": "bun run compile",
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
-		"pretest": "npm run compile && npm run lint",
+		"pretest": "bun run compile && bun run lint",
 		"lint": "biome check .",
 		"test": "vscode-test"
 	},
