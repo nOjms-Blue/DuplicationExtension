@@ -41,8 +41,19 @@
 		"@types/mocha": "^10.0.10",
 		"@types/node": "^22.19.3",
 		"@types/vscode": "^1.92.0",
-		"@vscode/test-cli": "^0.0.9",
+		"@vscode/test-cli": "^0.0.15",
 		"@vscode/test-electron": "^2.5.2",
 		"typescript": "^5.9.3"
+	},
+	"overrides": {
+		"js-yaml": "4.3.1",
+		"picomatch": "2.3.2",
+		"serialize-javascript": "7.1.0",
+		"flatted": "3.4.2",
+		"glob@10": "10.5.0",
+		"minimatch@5": "5.1.8",
+		"minimatch@9": "9.0.9",
+		"brace-expansion@1": "1.1.16",
+		"brace-expansion@2": "2.1.4"
 	}
 }
